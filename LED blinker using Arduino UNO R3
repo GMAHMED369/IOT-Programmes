@@ -1,0 +1,14 @@
+//Author: Gaus Ahmed.
+
+void setup()
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(500); // You can change the dalay by changing the values.
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(3000); // Chnaging values here will change the time of turniung off the led. 
+}
